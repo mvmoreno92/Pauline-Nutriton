@@ -1,0 +1,42 @@
+:root {
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Nunito", sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: var(--primary-font);
+  font-size: 96px;
+  font-weight: 700px;
+}
+
+h2 {
+  font-family: var(--primary-font);
+  font-size: 64px;
+  font-weight: 700px;
+}
+p {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 800px;
+}
+
+#header {
+  /* Background pattern from Toptal Subtle Patterns */
+  height: 330px;
+  width: 100%;
+  background-image: url("background.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#main-title,
+#secondary-title {
+  position: relative;
+  top: 100px;
+}
