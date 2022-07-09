@@ -33,6 +33,27 @@ img {
   border-radius: 10px;
 }
 
+ul {
+  font-family: var(--secondary-font);
+}
+
+.list-ingredients {
+  text-align: left;
+}
+
+.list-instructions {
+  text-align: left;
+  list-style: lower-roman;
+}
+
+#setion-recettes p {
+  font-family: var(--primary-font);
+}
+
+.recette-icons {
+  background-color: antiquewhite;
+  border-radius: 4px;
+}
 .row {
   margin-left: 30px;
   margin-right: 30px;
@@ -93,9 +114,19 @@ footer {
   margin: 10px auto;
 }
 
+#pauline-contact {
+  margin: auto 400px;
+}
+
+.contact-list {
+  text-align: left;
+  margin-left: 60px;
+  line-height: 40px;
+}
 #logos-footer {
   font-size: 20px;
 }
+
 .footer div {
   margin: 20px;
 }
