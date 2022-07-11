@@ -109,14 +109,12 @@ footer {
   margin: 10px auto;
 }
 
-#pauline-contact {
-  margin: auto 400px;
+#contact-info {
+  text-align: end;
 }
 
-.contact-list {
+#contact-photo {
   text-align: left;
-  margin-left: 60px;
-  line-height: 40px;
 }
 #logos-footer {
   font-size: 20px;
@@ -137,6 +135,10 @@ footer {
 
   .co-title {
     font-size: 70px;
+    margin-top: 30px;
+  }
+  .co-title-sm {
+    font-size: 60px;
     margin-top: 30px;
   }
   #bienvenue {
@@ -166,6 +168,22 @@ footer {
   }
   #newsletter {
     margin: 3px 20px;
+  }
+
+  .img-recette {
+    width: 90%;
+  }
+
+  .recette-icons {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  #contact-info {
+    text-align: center;
+  }
+  #contact-photo {
+    text-align: center;
   }
   .footer div {
     margin: 5px;
