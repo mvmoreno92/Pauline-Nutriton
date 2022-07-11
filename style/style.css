@@ -135,6 +135,10 @@ footer {
     font-size: 40px;
   }
 
+  .co-title {
+    font-size: 70px;
+    margin-top: 30px;
+  }
   #bienvenue {
     text-align: center;
   }
@@ -151,6 +155,18 @@ footer {
     font-size: 30px;
   }
 
+  .service-info p,
+  .service-info h3 {
+    text-align: center;
+  }
+  .service-info a {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+  }
+  #newsletter {
+    margin: 3px 20px;
+  }
   .footer div {
     margin: 5px;
     padding-top: 15px;
