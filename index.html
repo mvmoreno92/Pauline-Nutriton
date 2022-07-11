@@ -29,7 +29,7 @@
     <title>Pauline Nutrition : Naturopathe</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><i class="fa-brands fa-pagelines"></i> Pauline Nutrition</a
@@ -60,50 +60,59 @@
       <h1 id="main-title">Pauline Nutrition</h1>
       <h2 id="secondary-title">Naturopathe</h2>
     </div>
-    <div id="bienvenue" class="row mt-5">
-      <div class="col-3">
-        <img src="style/salade.jpg" alt="salade" width="100%" />
+    <div class="container">
+      <div id="bienvenue" class="row mt-5">
+        <div class="col-sm-3 d-none d-lg-block">
+          <img src="style/salade.jpg" alt="salade" class="img-fluid" />
+        </div>
+        <div class="col-sm-9">
+          <h3>Bienvenue !</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
       </div>
-      <div class="col-9">
-        <h3>Bienvenue !</h3>
+      <div id="mission">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Ma mission : Didunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse.
         </p>
       </div>
-    </div>
-    <div id="mission">
-      <p>
-        Ma mission : Didunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse.
-      </p>
-    </div>
-    <div class="row mt-5">
-      <div class="col-9" id="pauline">
-        <h3>Qui suis je ?</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-      <div class="col-3">
-        <img src="style/Pauline.jpg" alt="Pauline" width="200px" />
+      <div class="row mt-5">
+        <div class="col-sm-9" id="pauline">
+          <h3>Qui suis-je ?</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <img
+            src="style/Pauline.jpg"
+            alt="Pauline"
+            class="img-fluid"
+            width="200px"
+          />
+        </div>
       </div>
     </div>
     <footer class="d-flex justify-content-between footer">
-      <div><i class="fa-brands fa-pagelines"></i> Pauline Nutrition</div>
+      <div class="d-none d-lg-block">
+        <i class="fa-brands fa-pagelines"></i> Pauline Nutrition
+      </div>
       <div id="logos-footer">
         <i class="fa-brands fa-instagram"></i>
         <i class="fa-brands fa-twitter mx-2"></i>
