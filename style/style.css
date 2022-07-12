@@ -1,6 +1,8 @@
 :root {
   --primary-font: "Playfair Display", serif;
   --secondary-font: "Nunito", sans-serif;
+  --primary-color: antiquewhite;
+  --secondary-color: rgb(247, 175, 104);
 }
 
 body {
@@ -37,7 +39,7 @@ ul {
 }
 
 footer {
-  background-color: antiquewhite;
+  background-color: var(--primary-color);
   margin-top: 40px;
   height: 70px;
   font-family: var(--secondary-font);
@@ -57,7 +59,7 @@ footer {
 }
 
 .recette-icons {
-  background-color: antiquewhite;
+  background-color: var(--primary-color);
   border-radius: 4px;
 }
 
@@ -69,7 +71,7 @@ footer {
   padding: 40px;
 }
 #mission {
-  background-color: blanchedalmond;
+  background-color: var(--primary-color);
   padding: 40px;
   margin: 40px auto;
   border-radius: 5px;
@@ -84,28 +86,28 @@ footer {
 }
 
 .btn-lg {
-  background-color: antiquewhite;
+  background-color: var(--primary-color);
   color: black;
   font-family: var(--primary-font);
-  border: solid 1px antiquewhite;
+  border: solid 1px var(--primary-color);
 }
 
 .btn-lg:hover {
   opacity: 70%;
-  background-color: antiquewhite;
+  background-color: var(--primary-color);
   color: black;
-  border: solid 1px antiquewhite;
+  border: solid 1px var(--primary-color);
 }
 
 #newsletter {
-  background-color: antiquewhite;
+  background-color: var(--primary-color);
   margin: 3px 60px;
   padding: 20px 10px;
   border-radius: 5px;
 }
 
 #btn-newsletter {
-  background-color: rgb(247, 175, 104);
+  background-color: var(--secondary-color);
   margin: 10px auto;
 }
 
@@ -127,7 +129,7 @@ footer {
 }
 
 .logo-links:hover {
-  color: rgb(247, 175, 104);
+  color: var(--secondary-color);
 }
 
 .footer div {
