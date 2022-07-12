@@ -120,6 +120,16 @@ footer {
   font-size: 20px;
 }
 
+.logo-links {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+.logo-links:hover {
+  color: rgb(247, 175, 104);
+}
+
 .footer div {
   margin: 20px;
 }
